@@ -1,14 +1,14 @@
 {
   "resumeTitle": {
-    "title": "Hong Gil Dong"
+    "title": "지니의 포트폴리오"
   },
 
   "information": {
-    "name": "홍길동",
+    "name": "엄혜진",
     "contact": [
-      { "id": 0, "name": "Email", "href": "honggildong@gmail.com", "isEmail": true },
-      { "id": 1, "name": "Github", "href": "https://github.com/honggildong" },
-      { "id": 2, "name": "Blog", "href": "https://velog.io/@honggildong" }
+      { "id": 0, "name": "Email", "href": "uhgenie7@gmail.com", "isEmail": true },
+      { "id": 1, "name": "Github", "href": "https://github.com/uhgenie7" },
+      { "id": 2, "name": "Blog", "href": "https://uhgenie7.github.io/" }
     ]
   },
 
