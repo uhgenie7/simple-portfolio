@@ -4,7 +4,7 @@ import path from "path";
 import { NextPage } from "next";
 
 import Activity from "@/components/Activity";
-import Certificate from "@/components/Certificate";
+// import Certificate from "@/components/Certificate";
 import Education from "@/components/Education";
 import Footer from "@/components/Footer";
 import Information from "@/components/Information";
@@ -20,10 +20,10 @@ const Home: NextPage<DataProps> = ({
   resumeTitle,
   information,
   workExperience,
-  project,
+  // project,
   activity,
   education,
-  certificate,
+  // certificate,
   award,
 }) => {
   return (
@@ -33,10 +33,10 @@ const Home: NextPage<DataProps> = ({
       <Layout>
         <Information information={information} />
         <WorkExperience workExperience={workExperience} />
-        <Project project={project} />
+        {/* <Project project={project} /> */}
         <Activity activity={activity} />
         <Education education={education} />
-        <Certificate certificate={certificate} />
+        {/* <Certificate certificate={certificate} /> */}
         <Award award={award} />
       </Layout>
       <Footer contact={information.contact} name={information.name} />
@@ -110,7 +110,7 @@ const getImgSrc = async ({
     await fs.stat(filePath);
     return { ...item, imgSrc: imgSrc };
   } catch {
-    console.log("no img");
+    // console.log("no img");
     return item;
   }
 };
