@@ -17,7 +17,13 @@
       "id": 0,
       "name": "에이아이에스",
       "position": "Front-end Engineer",
-      "period": ["2021. 05", "now"]
+      "period": ["2021. 05", "2023. 09"]
+    },
+    {
+      "id": 1,
+      "name": "세계로시스템",
+      "position": "Front-end Engineer",
+      "period": ["2023. 09", "now"]
     }
   ],
 
